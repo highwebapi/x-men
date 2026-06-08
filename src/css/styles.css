@@ -65,12 +65,16 @@ body::before{
     height: 100%;
 }
 
+.lista-de-personagens .personagem.selecionado{
+    box-shadow: 0px 0px 22px 4px #0271f7;
+}
+
 .personagem-selecionado{
     text-align: center;
     max-height: 530px;
 }
 
-.personagem-selecionado .persoangem-grande{
+.personagem-selecionado .personagem-grande{
     width: 430px;
     height: 430px;
 }
@@ -84,7 +88,9 @@ body::before{
 .personagem-selecionado .descricao-personagem{
     font-size: 16px;
     line-height: 16px;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 420px;
 }
